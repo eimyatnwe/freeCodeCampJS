@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: beige;
+  font-family: "Courier New", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form .container {
+  width: 100%;
+  height: 40%;
+  background-color: black;
+  color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form .container label {
+  font-size: 24px;
+  text-align: center;
+  margin: 20px;
+}
+
+form .container input {
+  padding: 20px;
+  width: 60%;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+form .container button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid beige;
+  color: beige;
+  background: transparent;
+  cursor: pointer;
+}
+
+form .container button:hover {
+  transform: scale(1.3);
+}
+
+form .container .result {
+  /* background-color: yellow; */
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form .container .result.hidden {
+  display: none;
+}
